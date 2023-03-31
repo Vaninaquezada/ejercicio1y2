@@ -1,0 +1,30 @@
+<input type="number" [(ngModel)]="numero1" />
+<br />
+<input type="number" [(ngModel)]="numero2" />
+<br />
+<button type="button" (click)="calcular()">Calcular</button>
+<br />
+<button type="button" (click)="limpiar()">limpiar cuadros de texto</button>
+<br />
+{{ suma }}
+<br />
+{{ promedio }}
+<br />
+<br />
+<br />
+
+<button
+  type="button"
+  routerLink="/bienvenidos"
+  routerLinkActive="router-link-active"
+>
+  ir a bienvenidos
+</button>
+<br />
+<button type="button" routerLink="/error" routerLinkActive="router-link-active">
+  ir a error
+</button>
+<br />
+<button type="button" routerLink="/login" routerLinkActive="router-link-active">
+  ir a login
+</button>
